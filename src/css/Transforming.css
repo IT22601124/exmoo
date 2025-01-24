@@ -1,0 +1,50 @@
+.Transforming-container{
+    height: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+.Transforming-header{
+    padding-left: 40px;
+    font-size: 2rem;
+    width: 85%;
+}
+.Transforming-header h1 .highlights-text{
+    background: linear-gradient(to right, #eeff04, #1bb4e3); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 3px transparent; /* Stroke color is transparent */
+    z-index: -1; /* Position it behind */
+
+}
+.Transforming-content{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+.left{
+    width: 140%;
+    padding-right: 12px;
+    border-right:1px solid #ffffff;
+}
+.Right div{
+    flex-direction: column;
+    
+}
+.Right h1{
+    font-size: 3rem;
+    color: #d17c13;
+}
+
+.Right span{
+    font-size: 1.5rem;
+    color: #454343;
+}
+
+.Right span.active {
+    color: rgb(255, 253, 253); /* Active state color */
+}
+
+.Right p{
+    font-size: 1rem;
+    color: #ffffff;
+}

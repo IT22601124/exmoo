@@ -1,0 +1,99 @@
+.feedback-container {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    padding-left: 50px;
+  }
+  
+  .title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    width: 40%;
+  }
+  
+  .highlight {
+    background: linear-gradient(to right, #eeff04, #1bb4e3); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 3px transparent; /* Stroke color is transparent */
+  z-index: -1; /* Position it behind */
+  }
+  
+  .map-and-feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .map {
+    position: relative;
+    width: 50%;
+    height: 300px;
+    background: url('../../public//images/world.png') center/contain no-repeat; /* Add your map image */
+  }
+  
+  .marker {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .marker img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #00ffcc;
+  }
+  
+  .feedback {
+    width: 650px;
+    height: 400px;
+    margin-bottom: 10%;
+    overflow: hidden;
+   display: inline;
+   
+   
+  }
+  
+  .feedback-card {
+    width: 650px;
+    background-color: #222;
+    border: 1px solid #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 400px;
+    
+  }
+  
+  .rating {
+    font-size: 1.2rem;
+    color: #00ffcc;
+  }
+  
+  .feedback-text {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .client-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .client-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .client-name {
+    font-weight: bold;
+  }
+  
+  .client-position {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  

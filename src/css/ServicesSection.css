@@ -1,0 +1,119 @@
+/* Container styling */
+.services-container {
+    background-image: url("../../public/images/3wall.png") ;
+    background-color: #000;
+    background-position: 95% 75%;
+    background-repeat: no-repeat; 
+    color: #fff;
+    padding: 50px 100px;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  /* Header styling */
+  .services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .services-header h1 {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .services-header .highlight {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #f2c94c, #56ccf2);
+  }
+  
+  .all-services-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #100f0f;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 2px;
+    transition: 0.3s;
+    position: absolute;
+    margin-left: 75%;
+   margin-top: -15%;
+  }
+  
+  .all-services-btn:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  /* Content layout */
+  .services-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .services-text {
+    max-width: 50%;
+  }
+  
+  .services-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-number {
+    font-size: 5rem;
+    color: #56ccf2;
+    margin-right: 10px;
+  }
+  
+  .highlight {
+    color: #f2c94c;
+  }
+  
+  .services-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .lets-create-btn {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+  
+  .lets-create-btn:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  /* Graphic styling */
+  .services-graphic {
+    position: relative;
+  }
+  
+  .target-image {
+    max-width: 400px;
+    animation: spin 8s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

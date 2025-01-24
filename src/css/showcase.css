@@ -1,0 +1,64 @@
+.showcase-container{
+    height: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+.showcase-header{
+    padding-left: 20px;
+    font-size: 2rem;
+    width: 70%;
+}
+.showcase-header .highlights-text{
+    background: linear-gradient(to right, #eeff04, #1bb4e3); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 3px transparent; /* Stroke color is transparent */
+  z-index: -1; /* Position it behind */
+}
+.btn-aria{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    background-color: initial; /* Set initial background color */
+}
+
+.btn-aria button.yellow-background {
+    background-color: rgb(78, 78, 74); /* Change background color to yellow */
+    border: none;
+}
+
+.btn-aria button{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.hr-line {
+    width: 95%;
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the line */
+    background: linear-gradient(to right, #eaea22, #11e3ea); /* Gradient colors */
+    margin-top: 20px;
+}
+.showcase-content{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+.he1{
+    width: 25%;
+    padding-right: 12px;
+    border-right:1px solid #ffffff;
+}
+.he1 h1{
+    font-size: 3rem;
+    color: #d17c13;
+}
+.img1{
+    height: 500px;
+    width: 100%;
+}

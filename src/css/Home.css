@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 20px;
+    background-image: url('../../public/images/image.png'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+  }
+  
+  .header {
+    grid-column: span 2;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .brand {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffffff, #3c78a0);
+    -webkit-background-clip: text;
+    color: transparent; /* Text is made transparent to show the gradient */
+    display: inline; /* Ensure it's inline for better rendering */
+  }
+  ul {
+    list-style-type: none;
+    padding-right: 15px;  
+}
+
+li{
+    margin-bottom: 20px; 
+    
+}
+.nav-item {
+    color: black;
+    text-decoration: none;
+}
+  .dashDiv{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    color: black;
+    font-size: 50px;
+    margin-left: 78%;
+    margin-top: 0px;
+    border-radius: 18px;
+    z-index: 3;
+   
+
+  }
+  
+  .removeIcon{
+    font-size: 20px;
+    margin-left: 80%;
+  }
+  
+  
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: span 2;
+  }
+  
+  .text-section {
+    max-width: 50%;
+  }
+  
+  .coordinates {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin-top: 100px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .cta-button {
+    display: inline-flex;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(to right, #ffffff, #52becf); /* Gradient colors */
+    background-size: 200% 100%; /* Double the width for animation */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-position 0.7s ease; /* Transition for background position */
+    align-items: center;
+    gap: 15px;
+  }
+
+  .cta-button:hover {
+    background-position: -100% 0; /* Move background position to create the effect */
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .main-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .aside-section {
+    grid-column: span 2;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 10%;
+    display: flex;
+  }
+  
+  .fiverr-badge {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .review-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 1s forwards ;
+    margin-top: 10%;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+  }
+  
+  
+  .chat-widget {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-avatar {
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+
+  .dashboardMark{
+    display: flex;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 90%;
+  }
+
+  /* Home.css */
+/* Home.css */
+.dashDiv {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    visibility: hidden; /* Start with the element hidden */
+    opacity: 0; /* Initially invisible */
+    transform-origin: top right; /* Set the origin to the top right */
+    transition: opacity 0.8s ease, transform 0.8s ease; /* Add a transition for the opacity and transform */
+  }
+  
+  /* When visible, show the dashDiv with opacity transition and smooth slide-in */
+  .dashDiv.visible {
+    visibility: visible; /* Make it visible */
+    opacity: 1; /* Make it fully visible */
+    transform: translateY(0) translateX(0); /* Move it to its original position */
+  }
+  
+  .dashboardMark {
+    cursor: pointer;
+  }
+  .nav-item:hover{
+    color: #3c78a0;
+    transition: all 0.8s ease;
+  }
+  .removeIcon {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Optional: Add some styles for when the dashDiv is shown */
+  .dashDiv {
+    position: absolute; /* You can adjust the position */
+    top: 50px;
+    left: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for depth */
+    border-radius: 8px;
+  }
+  
+  /* You can style the MdOutlineSegment to hide it */
+  .dashboardMark.hidden {
+    display: none; /* Alternatively, you can use React state to toggle this class */
+  }
+  .text-section h2{
+    font-size: 6rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20%;
+    
+  }
+
+  .opades{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 20%;
+    margin-left: 25%;
+    margin-top: 20%;
+    
+  }
+  .description{
+    padding-left: 10px;
+  }
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.r1, .r2 {
+    position: absolute;
+    width: 300px; /* Adjust as needed */
+    height: 130px; /* Adjust as needed */
+    animation: switchPosition 8s infinite; /* Add infinite to repeat the animation */
+    padding: 20px;
+    border: 2px solid; /* Set the border width */
+    border-image: linear-gradient(to right, white, rgb(29, 192, 178)) 1; /* Apply linear gradient to the border */
+
+}
+
+.r1 {
+    background-color: #000;
+    margin-top: 20%;
+    z-index: 1; /* Ensure r1 is on top initially */
+    
+}
+
+.r2 {
+    background-color: #090909;
+    margin-top: 20%;
+    animation-delay: 4s; /* Delay the animation for r2 */
+    
+}
+
+@keyframes switchPosition {
+    0%, 20% {
+        transform: translateY(0);
+        z-index: 1; /* r1 on top */
+    }
+    50%, 75% {
+        transform: translateY(-20%);
+        z-index: 2; /* r2 on top */
+        
+    }
+    100% {
+        transform: translateY(0);
+        z-index: 1; /* r1 on top */
+    }
+}
+@keyframes moveLeftToRight {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+.tranfromLogos {
+    display: flex;
+    gap: 80px;
+    position: relative;
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.tranfromLogos img {
+    width: 200px;
+    height: 80px;
+    animation: moveLeftToRight 10s ease-in-out  infinite ; /* Apply the animation */
+}
+
+.slider{
+  width: 500px;
+  overflow: hidden;
+  height: var(--height);
+}
+.slider .list{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.slider .list .item{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  
+}
+
+.slider .list .item:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.slider .list .item:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.slider .list .item:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.slider .list .item:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.slider .list .item:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.slider .list .item img{
+  width: 100%;
+}
+
+@keyframes autoRun{
+  from{
+    left: 100%;
+  }
+  to{
+    left: -100%;
+  }
+}
+
+
+
+
+.h33{
+  margin-left: 25%;
+}
