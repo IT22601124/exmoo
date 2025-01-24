@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/exmoo/static/css/main.57e8fa0f.css",
+    "main.js": "/exmoo/static/js/main.08ce8d2d.js",
+    "static/js/488.e718941c.chunk.js": "/exmoo/static/js/488.e718941c.chunk.js",
+    "static/media/3wall.png": "/exmoo/static/media/3wall.b5df62eceaaf6f55bcaf.png",
+    "static/media/world.png": "/exmoo/static/media/world.dc91fd884c31c96de396.png",
+    "static/media/image.png": "/exmoo/static/media/image.273d69334ee3f24f3310.png",
+    "index.html": "/exmoo/index.html",
+    "main.57e8fa0f.css.map": "/exmoo/static/css/main.57e8fa0f.css.map",
+    "main.08ce8d2d.js.map": "/exmoo/static/js/main.08ce8d2d.js.map",
+    "488.e718941c.chunk.js.map": "/exmoo/static/js/488.e718941c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57e8fa0f.css",
+    "static/js/main.08ce8d2d.js"
+  ]
+}
