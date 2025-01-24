@@ -14,7 +14,7 @@ import Foot from './Pages/Foot';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/exmoo">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/heroSection" element={<HeroSection />} />
