@@ -63,7 +63,7 @@ const Contact = () => {
               </select>
               <input type="text" placeholder="Estimate Budget" required />
             </div>
-            <textarea
+            <textarea className="txtare"
               placeholder="Description"
               rows="4"
               required

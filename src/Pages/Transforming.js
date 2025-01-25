@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import '../css/Transforming.css'
+import man1 from "../images/man1.png";
+import man2 from "../images/man2.png";
+import man3 from "../images/man3.png";
 
 const Transforming = () => {
     const [visibleSection, setVisibleSection] = useState('Need');
@@ -20,11 +23,11 @@ const Transforming = () => {
         
         <div className='Transforming-content'>
             <div className='left'>
-                {visibleSection === 'Need' && (<img src='../images/man1.png' alt='app design' className='img1' />)}
-                {visibleSection === 'Meaning' && (<img src='../images/man2.png' alt='app design' className='img1' />)}
-                {visibleSection === 'Technology' && (<img src='../images/man3.png' alt='app design' className='img1' />)}
-                {visibleSection === 'Experience' && (<img src='../images/man4.png' alt='app design' className='img1' />)}
-                {visibleSection === 'Engagement' && (<img src='../images/man5.png' alt='app design' className='img1' />)}
+                {visibleSection === 'Need' && (<img src={man2} alt='app design' className='img1' />)}
+                {visibleSection === 'Meaning' && (<img src={man1} alt='app design' className='img1' />)}
+                {visibleSection === 'Technology' && (<img src={man3} alt='app design' className='img1' />)}
+                {visibleSection === 'Experience' && (<img src={man1} alt='app design' className='img1' />)}
+                {visibleSection === 'Engagement' && (<img src={man2} alt='app design' className='img1' />)}
 
             </div>
             <div className='Right'>

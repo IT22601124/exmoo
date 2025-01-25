@@ -58,7 +58,31 @@
     font-size: 3rem;
     color: #d17c13;
 }
+.app-design{
+    text-align: center;
+}
 .img1{
-    height: 500px;
-    width: 100%;
+    width: 80%;
+}
+@media (max-width: 768px){
+    .showcase-header h1{
+        font-size: 1.5rem;
+    }
+    .btn-aria button{
+        width: 75px;
+        font-size: x-small;
+    }
+    .btn-aria{
+        margin-left: 6px;
+    }
+    .he1 h1{
+        font-size: large;
+    }
+    .he1{
+        width: 30%;
+    }
+    .app-design , .web-design, .ui-design, .e-commerce{
+        width: 180px;
+    }
+
 }

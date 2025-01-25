@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import '../css/showcase.css';
+import man1 from "../images/man1.png";
+import man2 from "../images/man2.png";
+import man3 from "../images/man3.png";
+
 
 const Showcase = () => {
   const [visibleSection, setVisibleSection] = useState('web-design');
@@ -34,28 +38,28 @@ const Showcase = () => {
             <div className='app-design'>
               <h1>App Design</h1>
               <p>Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque ut nisl nibh a. Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque. Lorem ipsum dolor sit amet consectetur</p>
-              <img src='../images/man1.png' alt='app design' className='img1' />
+              <img src={man1} alt='app design' className='img1' />
             </div>
           )}
           {visibleSection === 'web-design' && (
             <div className='web-design'>
               <h1>Web Design</h1>
               <p>Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque ut nisl nibh a. Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque. Lorem ipsum dolor sit amet consectetur</p>
-              <img src='../images/man2.png' alt='app design' className='img1' />
+              <img src={man2} alt='app design' className='img1' />
             </div>
           )}
           {visibleSection === 'ui-design' && (
             <div className='ui-design'>
               <h1>Ui Design</h1>
               <p>Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque ut nisl nibh a. Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque. Lorem ipsum dolor sit amet consectetur</p>
-              <img src='../images/man2.png' alt='app design' className='img1' />
+              <img src={man3} alt='app design' className='img1' />
             </div>
           )}
           {visibleSection === 'e-commerce' && (
             <div className='e-commerce'>
               <h1>E-Commerce</h1>
               <p>Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque ut nisl nibh a. Lorem ipsum dolor sit amet consectetur. Lectus mattis dignissim elit quis scelerisque. Lorem ipsum dolor sit amet consectetur</p>
-              <img src='../images/man3.png' alt='app design' className='img1' />
+              <img src={man2} alt='app design' className='img1' />
             </div>
           )}
         </div>

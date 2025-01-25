@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/HeroSection.css";
+import ccare from "../images/ccare.png"
 
 const HeroSection = () => {
   return (
@@ -9,7 +10,7 @@ const HeroSection = () => {
           Experience the power of digital marketing with{" "}
           <span className="highlight-text">DIGITALNEXUS</span>
         </h1>
-        <p>
+        <p >
           A creative agency is a company that provides a range of services to
           help businesses and organizations with their creative and marketing
           needs. Creative agencies often employ a team of experts in various
@@ -23,7 +24,7 @@ const HeroSection = () => {
         <div className="chat-message">Hi! What can I do for you?</div>
         <div className="chat-avatar">
           <img
-            src="../images/ccare.png"
+            src={ccare}
             alt="Chat Avatar"
           />
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/ServicesSection2.css";
+import rc from "../images/rc.png";
 
 const ServicesSection3 = () => {
   return (
@@ -29,7 +30,7 @@ const ServicesSection3 = () => {
         {/* Right Text Section */}
         <div className="services-graphic2">
           <img
-            src="../images/rc.png"
+            src={rc}
             alt="Eye"
             className="eye-image"
           />

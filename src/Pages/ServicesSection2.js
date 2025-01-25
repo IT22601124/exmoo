@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/ServicesSection2.css";
+import eye from "../images/eye.png";
 
 const ServicesSection2 = () => {
   return (
@@ -10,7 +11,7 @@ const ServicesSection2 = () => {
         {/* Left Image Section */}
         <div className="services-graphic2">
           <img
-            src="../images/eye.png"
+            src={eye}
             alt="Eye"
             className="eye-image"
           />

@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { LuFacebook } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa6";
 
+
 const Foot = () => {
     return (
         <div className="foot-container">

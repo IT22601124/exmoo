@@ -12,7 +12,6 @@
   
   .hero-content {
     max-width: 1300px;
-    margin: 0 auto;
     margin-top: 20px;
   }
   
@@ -90,4 +89,24 @@
     border-radius: 50%;
     border: 2px solid #fff;
   }
-  
+  @media (max-width: 768px) {
+    .hero-content h1{
+      font-size: 19px;
+      width: 400px;
+      padding-left: 10px;
+      background-color: #222222;
+    }
+    .hero-content p{
+      margin-left: 1%;
+      text-align: center;
+      width: 400px;
+    }
+    .more-about-btn{
+      margin-left: 4%;
+      width: 300px;
+    }
+    .hero-container{
+      height: 450px;
+
+    }
+  }

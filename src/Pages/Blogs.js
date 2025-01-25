@@ -1,12 +1,15 @@
 import React from "react";
 import "../css/Blogs.css"; // Create a CSS file for styling
+import man1 from "../images/man1.png";
+import man2 from "../images/man2.png";
+import man3 from "../images/man3.png";
 
 const blogs = [
   {
     title: "Explore the Depths: Code Corner - IT Wisdom Straight from Nuxus",
     date: "22 Dec, 2024",
     author: "Malisa John",
-    image: "./images/man1.png", // Replace with the actual image URL
+    image: man1, // Replace with the actual image URL
     description:
       "Lorem ipsum dolor sit amet consectetur. Velit mi vitae dolor curabitur duis sociis. Eget risus vestibulum dictum sed viverra blandit massa non nunc.",
   },
@@ -14,7 +17,7 @@ const blogs = [
     title: "Fuel Your Imagination: Innovation Station - IT Musings by Nuxus",
     date: "22 Dec, 2024",
     author: "Malisa John",
-    image: "./images/man2.png", // Replace with the actual image URL
+    image: man2, // Replace with the actual image URL
     description:
       "Lorem ipsum dolor sit amet consectetur. Velit mi vitae dolor curabitur duis sociis. Eget risus vestibulum dictum sed viverra blandit massa non nunc.",
   },
@@ -23,7 +26,7 @@ const blogs = [
       "Decipher Complexity: Bytes & Bits - Unraveling IT Mysteries with Nuxus",
     date: "22 Dec, 2024",
     author: "Malisa John",
-    image: "./images/man3.png", // Replace with the actual image URL
+    image: man3, // Replace with the actual image URL
     description:
       "Lorem ipsum dolor sit amet consectetur. Velit mi vitae dolor curabitur duis sociis. Eget risus vestibulum dictum sed viverra blandit massa non nunc.",
   },

@@ -83,10 +83,11 @@ li{
     margin-top: 100px;
   }
   
-  .title {
-    font-size: 3rem;
+  .titl {
+    font-size: 100px;
     font-weight: bold;
     margin: 20px 0;
+    width: 200px;
   }
   
   .description {
@@ -374,4 +375,125 @@ li{
 
 .h33{
   margin-left: 25%;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+
+
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  .fiverr-badge{
+    font-size: small;
+  }
+
+  
+  .dashboardMark{
+    margin-left: 80%;
+  }
+  .coordinates{
+    margin-top: 5%;
+  }
+  .titl{
+    font-size: 35px;
+    
+  }
+  .cta-button{
+    width: 150px;
+    font-size: smaller;
+  }
+  h2 {
+    font-size: 1.5rem; /* Decrease the font size for h2 on mobile devices */
+  }
+  .slider{
+    margin-top: 5%;
+  }
+
+  .r1,.r2{
+    width: 100px;
+    font-size: x-small;
+    height: 100px;
+    margin-top: 55%;
+  }
+  .aside-section{
+    margin-left: 55%;
+    margin-top: 20%;
+  }
+  .opades{
+    visibility: hidden;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 20px;
+    background-image: url('../../public/images/image.png'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat; 
+  }
+  .header {
+    text-align: left;
+    margin-top: 5px;
+  }
+
+  .brand {
+    font-size: 2rem;
+  }
+
+  ul {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dashDiv{
+    margin-left: 30%;
+    width: 250px;
+    height: 100%;
+    align-items: start;
+    justify-content: start;
+    
+  }
+  .brand{
+    padding-top: 5px;
+  }
+  .header{
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .main-content{
+    margin-left: 15px;
+  }
 }

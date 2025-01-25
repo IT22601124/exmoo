@@ -14,6 +14,12 @@ import Feedback from './Feedback';
 import Contact from './Contact';
 import Blogs from './Blogs';
 import Foot from './Foot';
+import img1 from "../images/1.png";
+import img2 from "../images/2.png";
+import img3 from "../images/3.png";
+import img4 from "../images/4.png";
+import img5 from "../images/5.png";
+
 
 const Home = () => {
   const [isDashVisible, setIsDashVisible] = useState(false);
@@ -73,7 +79,7 @@ const Home = () => {
       <main className="main-content">
         <div className="text-section">
           <p className="coordinates">6.1569° S, 106.1569° E</p>
-          <h2 className="title">trusted design partner</h2>
+          <p className="titl">trusted design partner</p>
           
           
           <button className="cta-button">Book a Free Consultation   <FaArrowRight size={25} /></button>
@@ -98,11 +104,11 @@ const Home = () => {
       
       <div className='slider aria-hidden="true' style={{width: '1400px',height: '100px',quantity: 10}}>
       <div className='list'>
-        <div className='item'><img src="../images/1.png" alt="logo1" /></div>
-        <div className='item'><img src="../images/2.png" alt="logo1" /></div>
-        <div className='item'><img src="../images/3.png" alt="logo1" /></div>
-        <div className='item'><img src="../images/4.png" alt="logo1" /></div>
-        <div className='item'><img src="../images/5.png" alt="logo1" /></div>
+        <div className='item'><img src={img1} alt="logo1" /></div>
+        <div className='item'><img src={img2} alt="logo1" /></div>
+        <div className='item'><img src={img3} alt="logo1" /></div>
+        <div className='item'><img src={img4} alt="logo1" /></div>
+        <div className='item'><img src={img5} alt="logo1" /></div>
       </div> 
       </div>
       </div>

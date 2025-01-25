@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Feedback.css'; // Import your custom CSS file
+import man1 from "../images/man1.png"
 
 const Feedback = () => {
   const feedbackData = [
@@ -10,7 +11,7 @@ const Feedback = () => {
       rating: 4.8,
       feedback:
         'Lorem ipsum dolor sit amet consectetur. Aliquam in neque eleifend placerat scelerisque tincidunt erat porttitor.',
-      image: './images/man1.png', // Replace with actual image URLs
+      image: man1, // Replace with actual image URLs
     }
   ];
 

@@ -48,3 +48,14 @@
     font-size: 1rem;
     color: #ffffff;
 }
+
+
+@media(max-width:768px){
+    .Transforming-header h1{
+        font-size: large;
+    }
+    .Transforming-container{
+        padding-top: 100px;
+        margin-right: 50px;
+    }
+}

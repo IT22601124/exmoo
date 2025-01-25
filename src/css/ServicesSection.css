@@ -7,7 +7,7 @@
     color: #fff;
     padding: 50px 100px;
     font-family: Arial, sans-serif;
-    height: 100vh;
+    height: 100%;
   }
   
   /* Header styling */
@@ -116,4 +116,43 @@
       transform: rotate(360deg);
     }
   }
-  
+  @media (max-width: 768px) {
+
+    .services-container {
+      padding: 1% 4%;
+
+    }
+
+    .services-header h1{
+      font-size: 18px;
+      text-align: left;
+    }
+    .services-header{
+      align-items: left;
+      width: 45%;
+      
+      
+    }
+
+    .all-services-btn{
+      margin-left: 50%;
+      width: 130px;
+      font-size: x-small;
+      
+    }
+    .services-text .service-number{
+      font-size: 28px;
+    }
+    .services-content{
+      width: 650px;
+    }
+    .services-text h2{
+      font-size: 22px;
+    }
+    .services-container{
+      
+      background-position: 95% 45%;
+    }
+    
+
+  }

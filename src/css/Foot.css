@@ -58,3 +58,40 @@
     margin-top: 10px;
     margin-left: 25%;
 }
+
+@media(max-width:768px){
+    .foot-container{
+        display: inline;
+    }
+    .headere {
+        width: 100%;
+        
+    }
+    .left-f{
+        width: 80%;
+    }
+    .footer-links{
+        padding-left: 15px;
+        gap: 10px;
+        font-size: small;
+    }
+    .subs h1{
+        font-size: medium;
+        margin-left: 32px;
+        width: 100%;
+
+    }
+    .etext{
+        margin-left: 12%;
+    }
+    .h33{
+        font-size: xx-small;
+        margin-left: 20px;
+    }
+    .left-f{
+        padding-left: 5px;
+    }
+    .right-f{
+        width: 90%;
+    }
+}

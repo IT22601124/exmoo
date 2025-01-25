@@ -117,4 +117,29 @@ body {
   .submit-btn:hover {
     background-color: #00b89c;
   }
-  
+  @media(max-width:768px){
+    .contact-title{
+      font-size: large;
+    }
+    .contact-content{
+      display: inline;
+      
+    }
+    .contact-info{
+      width: 70%;
+    }
+    .contact-container{
+      padding-left: 10px;
+    }
+    .contact-form{
+      width: 70%;
+    }
+    .txtare{
+      width: 94%;
+    }
+    .file{
+      padding-right: 1px;
+      
+    }
+
+  }

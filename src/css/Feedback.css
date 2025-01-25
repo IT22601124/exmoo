@@ -96,4 +96,25 @@
     font-size: 0.9rem;
     color: #aaa;
   }
-  
+  @media(max-width:768px){
+    .feedback-container h2{
+      font-size: large;
+    }
+    .feedback-container {
+      padding-left: 4px;
+      padding-top: 50px;
+    }
+    .title{
+      width: 80%;
+    }
+    .map-and-feedback{
+      display: inline;
+    }
+    .map{
+      width: 400px;
+    }
+    .feedback-card{
+      width: 310px;
+      height: 100%;
+    }
+  }
